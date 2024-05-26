@@ -2,6 +2,6 @@ version: '3.9'
 
 services:
   web:
-    image: "sanketshirke/nodecicd:latest"
+    build: .
     ports:
       - "8000:8000"
