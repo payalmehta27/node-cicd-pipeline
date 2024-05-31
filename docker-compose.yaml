@@ -1,6 +1,6 @@
 version : "3.3"
 services :
-  web :
+  payal :
      build : .
      ports :
          - "8000:8000"
